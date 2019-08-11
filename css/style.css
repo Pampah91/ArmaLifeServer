@@ -388,6 +388,20 @@ header .logo {
 	color:#fff;
 }
 
+@media screen and (max-width: 1200px) {
+	#main-flexslider ul.slides li p {
+		font-size: 45px;
+	}
+
+}
+
+@media screen and (max-width: 870px) {
+	#main-flexslider ul.slides li p {
+		font-size: 25px;
+	}
+
+}
+
 p.home-slide-content{
 	padding-top:14px;
 	padding-bottom:14px;
