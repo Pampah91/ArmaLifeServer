@@ -351,7 +351,7 @@ ul#menu-main > li > a:focus {
 
 #header-wrapper h1 {
 	color: #FFFFFF;
-	font-size: 4em;
+	font-size: 3em;
 	font-weight: 400;
 	margin: 1em 0;
 }
@@ -1535,6 +1535,41 @@ i.icon-white {
 	height: auto;
 }
 
+.headercoration{
+	padding-left: 156px;
+	align-items: center;
+}
+
+#icon_france{
+	padding-top:0px;
+	padding-left: 14px;
+}
+
+#title{
+	padding-top:4px;
+}
+
+
+ @media (max-width: 979px) {
+	 .headercoration{
+		 padding-left:0px;
+	 }
+}
+
+@media (max-width: 600px) {
+	#icon_france{
+		padding-top:4px;
+		padding-left: 14px;
+		height: 22px;
+ 		width: auto;
+	}
+
+	#title{
+		font-size:95%;
+		padding-top: 10px;
+	}
+}
+
 /* =========================================================
 09. Media queries
 ============================================================ */
@@ -1553,8 +1588,9 @@ i.icon-white {
 	}
 
 	.navbar-inner h1.brand {
-		margin-left:20px;
+		margin-left:50px;
 	}
+
 
 	.navbar-inner .btn-navbar {
 		margin:20px 20px 0;

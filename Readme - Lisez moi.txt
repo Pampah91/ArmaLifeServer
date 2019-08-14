@@ -8,4 +8,4 @@ Author URL: https://bootstrapmade.com
 
 <Modifications apportées>
 
-par Pampah, pour le site du serveur insert_name_here
+par Pampah, pour le site du serveur ArmaRealLife (A4L)
