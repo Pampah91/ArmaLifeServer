@@ -76,11 +76,11 @@ body {
 
 /* scroll to top */
 .scrollup{
-    position:fixed;
+  position:fixed;
 	width:32px;
 	height:32px;
-    bottom:20px;
-    right:20px;
+  bottom:20px;
+  right:20px;
 }
 
 a.scrollup {
