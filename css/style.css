@@ -83,6 +83,10 @@ body {
   right:20px;
 }
 
+.scrlupimg{
+	z-index: 15;
+}
+
 a.scrollup {
 	outline:0;
 	text-decoration:none;
@@ -1602,7 +1606,6 @@ i.icon-white {
 	.chill{
 		width: auto;
 		height:175px;
-
 	}
 
 	h2{
@@ -1616,6 +1619,31 @@ i.icon-white {
 	.creativity{
 		width: 335px;
 		height: auto;
+	}
+}
+
+@media (min-width: 410px) and (max-height: 740px) {
+	/*Iphone 678+ media querie*/
+
+	blockquote.large{
+		text-align: left;
+	}
+
+	.chill{
+		width: auto;
+		height:175px;
+	}
+
+	h2{
+		text-align: center;
+	}
+
+	.span4 offset1 p{
+		text-align: justify;
+	}
+
+	.contactp{
+		text-align: center;
 	}
 
 
