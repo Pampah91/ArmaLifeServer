@@ -1587,7 +1587,30 @@ i.icon-white {
 	}
 }
 
+/* =========================================================
+How to join
+============================================================ */
 
+.caption-background, .caption2{
+	background-color: #e67a64;
+	padding:15px;
+	border-radius: 15px;
+	padding-top: 10px;
+}
+
+.caption-background{
+	height:40px;
+	line-height: 35px;
+}
+
+.row {
+  display: flex;
+}
+
+.rsABlock {
+  flex: 33.33%;
+  padding: 5px;
+}
 
 /* =========================================================
 09. Media queries
