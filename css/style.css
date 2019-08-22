@@ -1598,12 +1598,7 @@ How to join
 	padding-top: 10px;
 }
 
-.caption-background{
-	height:40px;
-	line-height: 35px;
-}
-
-.row {
+.rowlinks {
   display: flex;
 }
 
@@ -1611,6 +1606,76 @@ How to join
   flex: 33.33%;
   padding: 5px;
 }
+
+@media (min-width: 370px) and (max-height: 670px) {
+	/*Iphone 678 media querie*/
+	.rsABlock{
+    width: 100%;
+  }
+
+	.caption-background{
+		padding:0px;
+		padding-top: 0px;
+	}
+
+}
+
+@media (min-width: 410px) and (max-height: 740px) {
+	/*Iphone 678+ media querie*/
+
+}
+
+@media (min-width: 410px) and (max-height: 740px) {
+	/*Ipad media querie*/
+
+
+}
+
+@media (min-width: 360px) and (max-height: 740px) {
+	/*Galaxy S9 media querie*/
+}
+
+@media (min-width: 410px) and (max-height: 850px) {
+	/*Galaxy Note9 media querie*/
+
+}
+
+@media (min-width: 320px) and (max-height: 570px) {
+	/*Iphone5SE media querie*/
+}
+
+@media (min-width: 370px) and (max-height: 815px) {
+	/*IphoneXXS media querie*/
+}
+
+@media (min-width: 410px) and (max-height: 900px) {
+	/*IphoneXR media querie*/
+
+}
+
+@media (min-width: 410px) and (max-height: 735px) {
+
+}
+
+
+ @media (min-width: 768px) and (max-width: 979px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
+
+    /* Smaller screens ----------- */
+@media (max-width : 480px) {
+
+}
+
+    /* Smartphones (portrait and landscape) ----------- */
+@media only screen  and (min-device-width : 320px)  and (max-device-width : 480px) {
+
+}
+
 
 /* =========================================================
 09. Media queries
